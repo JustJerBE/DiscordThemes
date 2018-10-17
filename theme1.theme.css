@@ -1,0 +1,24 @@
+//META{"name":"Theme1","description":"A theme for Discord made by JustJerBE","author":"JustJerBE","version":"1"}*//{}
+
+@import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
+
+:root {
+	--main-color: #e67a27;
+	--hover-color: #b35d1e;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+
+body::after,
+.callout-backdrop,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+    background-image: url(https://media.idownloadblog.com/wp-content/uploads/2018/05/low-poly-texture-120-roundedhexagon-wwallpaper.png) !important;
+}
