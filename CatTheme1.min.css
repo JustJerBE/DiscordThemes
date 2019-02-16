@@ -1,4 +1,4 @@
-@import "https://justjerbe.github.io/CatTheme/Theme1Fixes.css";
+@import "https://justjerbe.github.io/DiscordThemes/CatBackground.png";
 
 .channels-wrap > [class*="container"]:last-child::after {
     content: "Cat";
