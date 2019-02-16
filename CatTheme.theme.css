@@ -1,0 +1,24 @@
+//META{"name":"A theme for cat.","description":"A theme for Discord made by JustJerBE","author":"JustJerBE","version":"1.0.0"}*//{}
+
+@import url(https://justjerbe.github.io/CatTheme/Theme1.min.css);
+
+:root {
+	--main-color: #e67a27;
+	--hover-color: #b35d1e;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+
+body::after,
+.callout-backdrop,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+    background-image: url(https://github.com/JustJerBE/CatTheme/blob/master/2Q.png?raw=true) !important;
+}
